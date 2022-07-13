@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.App {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #ecedef;
+}
+
+.calendar-content {
+ background-color: white;
+ width: 40rem;
+ height: 40rem;
+ border-radius: 10px;
+ box-shadow: 0px 0px 20px 0px #bdc3c7;
+}
+
+.tittle {
+    margin: 1em 0 0 1em;
+    font-size: 18px;
+    color: #585f66;
+}
+
+.datetime-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-label {
+    color: #7d858e;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.info {
+    background-color: #f6f7fb;
+    padding: 1em 3em;
+    border-radius: 10px;
+    color: #7d858e;
+    font-weight: 700;
+}
+
+.Schedule, .Cancel {
+    padding: 1em 3em;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 0;
+    box-shadow: 0px 0px 5px 0px #bdc3c7;
+    cursor: pointer;
+    margin: 2em 8px;
+}
+
+.Schedule {
+    background-color: #4a7cfe;
+    color: whitesmoke;
+}
+
+.Cancel {
+    background-color: white;
+    color: #7d858e;
+}

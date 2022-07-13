@@ -1,9 +1,10 @@
 import './App.css';
+import DatePicker from './components/DatePicker/DatePicker';
 
 function App() {
   return (
     <div className="App">
-      X-TRACT
+      <DatePicker />
     </div>
   );
 }
